@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ML Code</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+      background-image: url(bg.jpeg);
+      background-size: cover;
+    
+    }
+
+
+
+ 
+
+  
+    .login-form {
+      width: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+   
+    .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.login-option {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #f00;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
+.right_arrow{
+ height: 20px;
+ width: 20px;
+}
+.arrow_div{
+  margin-left: 150px;
+}
+
+@media screen and (min-width:300px)
+    {
+      body{
+        background-repeat: no-repeat;
+      }
+  
+      .login-form {
+      width: 300px;
+     
+      margin-top: 50px;
+      margin-bottom: 50px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+ 
+}
+    
+    }
+
+    
+
+
+
+  </style>
+</head>
+<body>
+  <div style="border: 1px black solid; background:rgba(22, 20, 20, 0.959) ; height:90px;">
+    <h1><img src="pic.png" height="50px" width="100px" style="float: left;;"  alt="">
+    <button style="background-color: green;height: 40px;width: 100px; float: right; border-radius: 7px; margin-right: 20px; color: #f2f2f2;"><b> Sign Up</b></button></h1>
+    </div>
+
+
+
+    <div class="login-form">
+      <div class="container">
+
+        <div class="logo">
+          <img src="Screenshot 2024-05-26 131651.png"  alt="ML Code Logo">
+        </div>
+        <p style="margin-right: 130px;">Log In or Sign Up with:</p>
+        <div class="login-options">
+          <div class="login-option">
+            <div class="icon"><img src="https://dwglogo.com/wp-content/uploads/2016/06/G-icon.png" alt="Google Icon"></div>
+           <div class="text">Google</div>
+           <div class="arrow_div"><a href="https://accounts.google.com/v3/signin/identifier?ifkv=AaSxoQyqL1nmT6Nztpf5KEJ2pCb7u6mEOMt7JzDEn_Tw6vVaO70SSOwxI3aGW2ixYHps-_3V0sXW&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2079369477%3A1716720212212177&ddm=0"><img src="Right-Arrow-PNG-Photo.png"  alt="" class="right_arrow"></a></div>
+          </div>
+          <div class="login-option">
+            <div class="icon"><img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn Icon"></div>
+            <div class="text">LinkedIn</div>
+            <div class="arrow_div"><a href="https://www.linkedin.com/login"><img src="Right-Arrow-PNG-Photo.png" alt="" class="right_arrow"></a></div>
+         
+          </div>
+          <div class="login-option">
+            <div class="icon"><img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub Icon"></div>
+            <div class="text">Github</div>
+            <div class="arrow_div"><a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsignup%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home"><img src="Right-Arrow-PNG-Photo.png" alt="" class="right_arrow"></a></div>
+          </div>
+          <div class="login-option">
+            <div class="icon"><img src="https://www.facebook.com/favicon.ico"  alt="Facebook Icon"></div>
+            <div class="text">Facebook</div>
+            <div class="arrow_div"><a href="https://www.facebook.com/login.php/"><img src="Right-Arrow-PNG-Photo.png" alt="" class="right_arrow"></a></div>
+          </div>
+        </div>
+        <div class="footer">
+          Introducing MLCode - Your Al Interview Preparation Platform
+          <br> <br><span style="color: gainsboro;">
+          Privacy Policy and Terms of Service apply
+        </span>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+</body>
+</html>
